@@ -1,0 +1,11 @@
+ @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+
+body {
+    font: 16px Arial, helvetica, sans-serif;
+    color: black;
+}
+
+h1 {
+    font: italic normal 3em Salsa, Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(128, 108, 82);
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: darkred;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+a:active {
+    color: white;
+}
+
+a::after {
+    content: ' link';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}

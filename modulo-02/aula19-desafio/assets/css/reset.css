@@ -1,0 +1,55 @@
+/* Reset CSS */
+
+/* Remover margens e preenchimentos padrão */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Definir a fonte padrão e o tamanho da fonte */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Remover estilos de lista */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remover decoração de link padrão */
+a {
+  text-decoration: none;
+}
+
+/* Definir a cor do texto padrão */
+body {
+  color: #333;
+}
+
+/* Definir a largura da imagem como 100% */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Definir a caixa de modelo como border-box */
+* {
+  box-sizing: border-box;
+}

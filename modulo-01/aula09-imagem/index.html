@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmina</h1>
+    <picture> <!--- Seguir a ordem --->
+        <source media="(max-width: 750px)" srcset="img/foto_pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto_media.png" type="image/png">
+        <img src="img/foto_grande.png" alt="Imagem grande">
+    </picture>
+</body>
+</html>
