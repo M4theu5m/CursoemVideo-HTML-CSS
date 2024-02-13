@@ -38,3 +38,19 @@ main {
     width: 265px;
     height: 470px;
 }
+
+#redes-sociais {
+    text-align: right;
+}
+
+#redes-sociais a img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box;
+}
+
+#redes-sociais a img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.603);
+}
